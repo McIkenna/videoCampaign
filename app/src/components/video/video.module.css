@@ -1,0 +1,87 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+.cover {
+  width: 100%;
+}
+
+.socials {
+  margin: 5% 10%;
+}
+
+.socialItem {
+  background-color: white;
+  height: 100px;
+  display: flex;
+}
+
+.iconImage {
+  width: 100px;
+  border-radius: 20%;
+}
+
+.campaignName {
+  line-height: 0%;
+  margin: 10px;
+}
+.campaignRating {
+  display: flex;
+  color: rgb(41, 185, 41);
+}
+.campaignRating p:first-child {
+  font-weight: bold;
+}
+
+.campaignRating p:last-child {
+  text-indent: 4px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+.card {
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 200px;
+  height: 400px;
+}
+
+.bottomIcon {
+  display: flex;
+  width: 100%;
+  margin: 2px;
+}
+.linkIcon {
+  width: 50%;
+  height: 20px;
+  padding: 10px 2px;
+  border: 1px solid rgb(235, 235, 235);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.linkIcon:hover {
+  background-color: rgb(233, 230, 230);
+}
+.downloadIcon {
+  width: 50%;
+  height: 20px;
+  padding: 10px 2px;
+  border: 1px solid rgb(235, 235, 235);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.downloadIcon:hover {
+  background-color: rgb(233, 230, 230);
+}
+
+@media screen and (max-width: 460px) {
+  .socialItem {
+    display: block;
+  }
+}
